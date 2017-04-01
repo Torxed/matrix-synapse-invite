@@ -1,7 +1,7 @@
 # matrix-synapse-invite
 A invite system for matrix-synapse https://github.com/matrix-org/synapse
 
-# Usage
+# Requirements
 Database requirements:
 -----
 If the webserver with the invite code does **not** have access to the **PostgreSQL instance** of your **homeserver**,<br>
@@ -12,8 +12,11 @@ you need to copy the `users` table of that SQL instance with:
 
 Or, allow the webserver to access the **PostgreSQL instance** of your **homeserver**.
 
+Webserver requirements:
+----
 Place `./*.php` on just any webserver really.<br>
 
+# Usage
 Navigate yourself to `https://your-server.com/generate_invite.php`,<br>
 once there, login with your `matrix-synapse` username and password,<br>
 copy the link and give it to friends and family (enemies too if you really want to, I can't tell you what to do).
