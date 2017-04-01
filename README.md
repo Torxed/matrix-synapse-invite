@@ -32,6 +32,7 @@ Place `./*.php` on just any webserver really.<br>
     $HomeServer = 'matrix.domain.com';
 <br>
 <br>
+
 # Usage
 Navigate yourself to `https://your-server.com/generate_invite.php`,<br>
 once there, login with your `matrix-synapse` username and password,<br>
