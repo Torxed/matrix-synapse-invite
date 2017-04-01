@@ -11,7 +11,7 @@ you need to copy the `users` table of that SQL instance with:
  * login to the webserver with a running postgresql instance and do:
  * `psql -U synapse synapse < users.sql`
 
-Or, allow the webserver to access the **PostgreSQL instance** of your **homeserver**.
+Or, [allow the webserver to access the **PostgreSQL instance**](https://wiki.archlinux.org/index.php/PostgreSQL#Configure_PostgreSQL_to_be_accessible_from_remote_hosts) of your **homeserver**.
 
 ## Webserver requirements:
 Place `./*.php` on just any webserver really.<br>
