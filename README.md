@@ -2,8 +2,8 @@
 A invite system for matrix-synapse https://github.com/matrix-org/synapse
 
 # Useage
-Place `./*.php` on just any webserver really.
-Make sure it has access to a PostgreSQL instance (usually running on the home-server)
+Place `./*.php` on just any webserver really.<br>
+Make sure it has access to the **PostgreSQL instance** of your **homeserver**
 
 Navigate yourself to `https://your-server.com/generate_invite.php`,
 once there, copy the link and give it to friends and family (enemies too, I can't tell you what to do).
