@@ -11,7 +11,6 @@
 	$ERROR_redirect = 'https://domain.com/generate_invite.php=error=1';
 	$CHAT_redirect = 'https://chat.domain.com';
 	$INVITE_server = $CHAT_redirect;
-	$HomeServer = 'homeserver.domain.com';
 	$HomeServer_domain = 'chat.domain.com'; // used to struct @user:chat.domain.com
 
 	class query {
