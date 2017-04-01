@@ -19,6 +19,7 @@ Place `./*.php` on just any webserver really.<br>
 
 ## Code configurations:
 
+```php
     $CHAT_redirect = 'https://chat.domain.com'; // Where your front-end is
     $ERROR_redirect = $CHAT_redirect . '/invite.php?error=1&logout=true'; //Where invite.php is typically
     $INVITE_server = $CHAT_redirect; // I host invite.php on the same webdir as Riot-IM (my choice of front-end)
@@ -30,7 +31,8 @@ Place `./*.php` on just any webserver really.<br>
     $dbuser = 'synapse';
     $dbpass = '<db password>';
     $dbname = 'synapse';
-    
+```
+
 You need to adapt all these in `invite_helpers.php` for this to work.<br>
 I hope they're self-explanatory, if not someone might create a issue and i'll fix this.
 
