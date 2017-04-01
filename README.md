@@ -32,7 +32,7 @@ Place `./*.php` on just any webserver really.<br>
     $dbname = 'synapse';
     
 You need to adapt all these in `invite_helpers.php` for this to work.<br>
-I hope they're self-explantory, if not someone might create a issue and i'll fix this.
+I hope they're self-explanatory, if not someone might create a issue and i'll fix this.
 
 <br>
 
