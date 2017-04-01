@@ -30,7 +30,7 @@ Place `./*.php` on just any webserver really.<br>
     $ERROR_redirect = 'https://domain.com/?error=true';
     $CHAT_redirect = 'https://chat.domain.com/';
     $HomeServer = 'matrix.domain.com';
-<br>
+
 <br>
 
 # Usage
