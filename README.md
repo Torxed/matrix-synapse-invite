@@ -2,8 +2,8 @@
 A invite system for matrix-synapse https://github.com/matrix-org/synapse
 
 # Requirements
-Database requirements:
------
+## Database requirements:
+
 If the webserver with the invite code does **not** have access to the **PostgreSQL instance** of your **homeserver**,<br>
 you need to copy the `users` table of that SQL instance with:
  * `pg_dump -S synapse -t users synapse > users.sql`
@@ -12,20 +12,19 @@ you need to copy the `users` table of that SQL instance with:
 
 Or, allow the webserver to access the **PostgreSQL instance** of your **homeserver**.
 
-Webserver requirements:
-----
+## Webserver requirements:
 Place `./*.php` on just any webserver really.<br>
 
-Code configurations:
----
-**generate_invite.php**
+## Code configurations:
+
+### generate_invite.php
 
     $ERROR_redirect = 'https://domain.com/generate_invite.php?error=1&logout=true';
     $CHAT_redirect = 'https://chat.domain.com';
     $INVITE_server = $CHAT_redirect; // I run the invite system in riot-web root directory, so it will be the same as the chat system.
     $HomeServer_domain = 'chat.domain.com'; // used to struct @user:chat.domain.com
 
-**invite.php**
+### invite.php
 
     $ERROR_redirect = 'https://domain.com/?error=true';
     $CHAT_redirect = 'https://chat.domain.com/';
