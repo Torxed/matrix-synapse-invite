@@ -42,6 +42,7 @@
 				return false;
 			} else {
 				pg_query($this->conHandle, "CREATE TABLE IF NOT EXISTS invites (id SERIAL PRIMARY KEY, key VARCHAR(128), owner VARCHAR(120), regged TIMESTAMP WITH TIME ZONE default now(), used BOOL DEFAULT FALSE, UNIQUE(key));");
+				pg_query($this->connHandle, "UPDATE invites SET used='t' WHERE age(regged) > INTERVAL '1 day';");
 				return true;
 			}
 		}
