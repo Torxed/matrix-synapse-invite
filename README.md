@@ -21,15 +21,15 @@ Code configurations:
 **generate_invite.php**
 
     $ERROR_redirect = 'https://domain.com/generate_invite.php?error=1&logout=true';
-	  $CHAT_redirect = 'https://chat.domain.com';
-	  $INVITE_server = $CHAT_redirect; // I run the invite system in riot-web root directory, so it will be the same as the chat system.
-	  $HomeServer_domain = 'chat.domain.com'; // used to struct @user:chat.domain.com
+    $CHAT_redirect = 'https://chat.domain.com';
+    $INVITE_server = $CHAT_redirect; // I run the invite system in riot-web root directory, so it will be the same as the chat system.
+    $HomeServer_domain = 'chat.domain.com'; // used to struct @user:chat.domain.com
 
 **invite.php**
 
     $ERROR_redirect = 'https://domain.com/?error=true';
-	  $CHAT_redirect = 'https://chat.domain.com/';
-	  $HomeServer = 'matrix.domain.com';
+    $CHAT_redirect = 'https://chat.domain.com/';
+    $HomeServer = 'matrix.domain.com';
 
 # Usage
 Navigate yourself to `https://your-server.com/generate_invite.php`,<br>
