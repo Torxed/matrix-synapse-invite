@@ -1,6 +1,7 @@
 # matrix-synapse-invite
 A invite system for matrix-synapse https://github.com/matrix-org/synapse
 <br>
+<br>
 # Requirements
 ## Database requirements:
 
@@ -29,7 +30,8 @@ Place `./*.php` on just any webserver really.<br>
     $ERROR_redirect = 'https://domain.com/?error=true';
     $CHAT_redirect = 'https://chat.domain.com/';
     $HomeServer = 'matrix.domain.com';
-
+<br>
+<br>
 # Usage
 Navigate yourself to `https://your-server.com/generate_invite.php`,<br>
 once there, login with your `matrix-synapse` username and password,<br>
